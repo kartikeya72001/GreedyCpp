@@ -37,9 +37,9 @@ int Defense(int r, int c, int n, int *xarr, int* yarr)
 
      return 0;
  }
- /*
+/*
 15 8 3
 3 8
 11 2
 8 6
- */
+*/
