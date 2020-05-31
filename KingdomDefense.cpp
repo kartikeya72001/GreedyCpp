@@ -23,8 +23,10 @@ int Defense(int r, int c, int n, int *xarr, int* yarr)
  int main(int argc, char const *argv[]) {
      int r,c,n;
      cin>>r>>c>>n;
+     
      int *xarr = new int[n];
      int *yarr = new int[n];
+
      for(int i=0;i<n;i++)
      {
          cin>>xarr[i];
@@ -34,7 +36,6 @@ int Defense(int r, int c, int n, int *xarr, int* yarr)
      sort(xarr,xarr+n);
      sort(yarr,yarr+n);
      cout<<Defense(r,c,n,xarr,yarr);
-
      return 0;
  }
 /*
